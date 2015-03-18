@@ -14,6 +14,7 @@
 		303686101A7D47E900D51651 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3036860F1A7D47E900D51651 /* Images.xcassets */; };
 		303686131A7D47E900D51651 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 303686111A7D47E900D51651 /* LaunchScreen.xib */; };
 		3036861F1A7D47EA00D51651 /* properties_part2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3036861E1A7D47EA00D51651 /* properties_part2Tests.m */; };
+		303686341A7D4B3000D51651 /* ASObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 303686331A7D4B3000D51651 /* ASObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		303686181A7D47EA00D51651 /* properties_part2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = properties_part2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3036861D1A7D47EA00D51651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3036861E1A7D47EA00D51651 /* properties_part2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = properties_part2Tests.m; sourceTree = "<group>"; };
+		303686331A7D4B3000D51651 /* ASObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASObject.m; sourceTree = "<group>"; };
+		303686351A7D4B3A00D51651 /* ASObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				3036860F1A7D47E900D51651 /* Images.xcassets */,
 				303686111A7D47E900D51651 /* LaunchScreen.xib */,
 				303686021A7D47E900D51651 /* Supporting Files */,
+				303686331A7D4B3000D51651 /* ASObject.m */,
+				303686351A7D4B3A00D51651 /* ASObject.h */,
 			);
 			path = properties_part2;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303686341A7D4B3000D51651 /* ASObject.m in Sources */,
 				3036860B1A7D47E900D51651 /* ViewController.m in Sources */,
 				303686081A7D47E900D51651 /* AppDelegate.m in Sources */,
 				303686051A7D47E900D51651 /* main.m in Sources */,

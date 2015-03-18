@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ASObject.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    
+   // [self ourMeth];
+    
+    //self.temp2  = [[ASObject alloc] init];
+    //self.temp1 = nil; // убивает даже сильную ссылку
+    
+    [self settershmeter:[[ASObject alloc] init]];
+    
+    NSLog(@"test is over");
+    
     return YES;
+}
+
+- (void) ourMeth {
+    ASObject* myObject = [[ASObject alloc] init];
+    
+    self.temp1 = [[ASObject alloc] init];
+    [self setTemp2:myObject];
+    
+    //[self setTemp1:myObject]; тоже самое
+}
+
+
+- (void) ourmeth2 {
+    ASObject* my2 = [[ASObject alloc] init];
+    
+    self.temp3 = my2;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
